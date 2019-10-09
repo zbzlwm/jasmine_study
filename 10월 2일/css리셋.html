@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS reset.css">
+    <style>
+        #kim{
+            
+            border: 1px solid black;
+            width:200px;
+            height:200px;
+            padding-top:30px;
+            box-sizing:border-box;
+            margin:100px;
+        }
+        #kim:hover{
+            background-color: blue; 
+            width:10px;
+            height:300px;
+        }
+
+        #lee{
+            display: inline-block;
+            border: 1px solid black;
+            width:200px;
+            height:200px;
+
+        }
+        a:visited{
+            color:red;
+        }
+        #check:checked + span{
+            color:blue;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <a href="#top">맨위로</a>
+    <div id="kim">
+
+    </div>
+    <div id="lee">
+
+    </div>
+    <input id="check" type="checkbox"><span>설정</span>
+</body>
+</html>
